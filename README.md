@@ -11,7 +11,7 @@ Composer Installation
 
 Run the following command:
 ```bash
-composer require t2n/lazop-sdk-php
+composer require thanhext/lazop-sdk-php:dev-main
 ```
 
 Usage
@@ -19,8 +19,8 @@ Usage
 
 Sample usage:
 ```php
-use T2N\PHPLazadaSDK\LazopClient;
-use T2N\PHPLazadaSDK\LazopRequest;
+use ThanhEXT\PHPLazadaSDK\LazopClient;
+use ThanhEXT\PHPLazadaSDK\LazopRequest;
 
 ...
 $c = new LazopClient('https://api.lazada.test/rest', '${appKey}', '${appSecret}');

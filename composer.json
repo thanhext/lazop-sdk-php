@@ -2,11 +2,7 @@
     "name": "thanhext/lazop-sdk-php",
     "description": "Lazada Open API PHP SDK.",
     "type": "library",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
-    },
+    "version": "1.0.1",
     "keywords": [
         "Lazada",
         "Sdk"
