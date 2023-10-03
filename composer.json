@@ -1,0 +1,25 @@
+{
+    "name": "thanhext/lazop-sdk-php",
+    "type": "library",
+    "description": "Lazada Open API PHP SDK.",
+    "keywords": [
+        "Lazada",
+        "Sdk"
+    ],
+    "homepage": "https://github.com/thanhext/lazop-sdk-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nguyen Van Thanh",
+            "email": "thanhext@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "ThanhEXT\\PHPLazadaSDK\\": "src/PHPLazadaSDK"
+        }
+    }
+}
